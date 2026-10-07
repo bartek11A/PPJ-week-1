@@ -1,12 +1,12 @@
 public class Main {
     static void main(String[] args) {
-//        Utworzyć dwie zmienne całkowite
-        int a = 12;
-        int b = 5;
-//        Obliczyć i wyświetlić wyrażenia z zadania
-        IO.println(a + b * 2);
-        IO.println((a + b) * 2);
-        IO.println(a % b + 3);
-        IO.println(a > b && b > 0);
+//        Utworzyć zmienną całkowitą o wartości 42
+        int i1 = 42;
+//        Wyświetlić wartość zmiennej
+        IO.println(i1);
+//        Wyświetlić wyniki zastosowania operatorów bitowych z liczbą 15
+        IO.println(i1 & 15);
+        IO.println(i1 | 15);
+        IO.println(i1 ^ 15);
     }
 }
